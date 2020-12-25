@@ -1,4 +1,4 @@
-import txt from "@fortawesome/fontawesome-free/sprites/regular.svg"
+import txt from "@fortawesome/fontawesome-pro/sprites/regular.svg"
 const iconset = document.createElement("ha-iconset-svg");
 iconset.name="far";
 iconset.size="1024";

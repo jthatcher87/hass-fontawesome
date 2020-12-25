@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.yaml": "home-assistant"
+    },
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontFamily": "roboto_mono"
+}
