@@ -42,6 +42,14 @@ class FontawesomeEditFlow(config_entries.OptionsFlow):
                         "brands",
                         default=self.config_entry.options.get("brands", False),
                     ): bool,
+                    vol.Optional(
+                        "light",
+                        default=self.config_entry.options.get("light", False),
+                    ): bool,
+                    vol.Optional(
+                        "duotone",
+                        default=self.config_entry.options.get("duotone", False),
+                    ): bool,
                 }
             )
         )
